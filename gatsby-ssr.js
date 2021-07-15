@@ -67,6 +67,7 @@ exports.onRenderBody = function (_ref, pluginOptions) {
     defer: true,
     rel: "preload",
     as: "script",
+    id: "snipcart-script",
     src: "https://cdn.snipcart.com/themes/v" + _options.version + "/default/snipcart.js"
   })];
   return setPostBodyComponents(components);
