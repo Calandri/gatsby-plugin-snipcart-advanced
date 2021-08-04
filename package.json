@@ -25,12 +25,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ipatate/gatsby-plugin-snipcart-advanced"
+    "url": "git+https://github.com/ipatate/gatsby-plugin-snipcart-advanced.git"
   },
   "scripts": {
     "clean": "rm -rf store components context.js gatsby-browser.js gatsby-ssr.js",
     "build": "npm run clean && babel src --out-dir . --ignore \"**/__tests__\"",
     "prepare": "cross-env NODE_ENV=production npm run build",
     "watch": "npm run clean && babel -w src --out-dir . --ignore \"**/__tests__\""
+  },
+  "bugs": {
+    "url": "https://github.com/ipatate/gatsby-plugin-snipcart-advanced/issues"
   }
 }
