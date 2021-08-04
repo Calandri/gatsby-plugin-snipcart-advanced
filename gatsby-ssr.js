@@ -66,6 +66,7 @@ exports.onRenderBody = function (_ref, pluginOptions) {
     key: "snipcart-script",
     defer: true,
     rel: "preload",
+    async = true,
     as: "script",
     id: "snipcart-script",
     src: "https://cdn.snipcart.com/themes/v" + _options.version + "/default/snipcart.js"
